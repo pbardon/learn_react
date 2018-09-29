@@ -1,0 +1,27 @@
+{
+  "name": "ingredients",
+  "version": "1.0.0",
+  "description": "react ingredients app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Bardon",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "jshint": "^2.9.6",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reactjs": "^1.0.0",
+    "webpack": "^4.20.2"
+  }
+}
