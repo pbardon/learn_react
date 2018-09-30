@@ -4,6 +4,7 @@ module.exports = {
          path: "/Users/bardon/sandbox/git-projects/learn-react/ingredients/dist/assets",
          filename: "bundle.js"
      },
+     devtool: '#source-map',
      module: {
          rules: [
              {
@@ -13,9 +14,7 @@ module.exports = {
                  query: {
                      presets: [ 
                         '@babel/preset-env',
-                        // '@babel/stage-0',
                         '@babel/react'
-                        // '@babel/es2015'
                     ]
                  }
              }
