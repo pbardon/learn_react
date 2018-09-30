@@ -1,0 +1,7 @@
+.star-rating p {
+    font-size: small
+}
+
+.star-rating {
+    display: inherit;
+}

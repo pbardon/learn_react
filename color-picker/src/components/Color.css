@@ -1,0 +1,13 @@
+section {
+    width: 200px;
+    display: inline-block;
+    margin: 1em;
+}
+
+.color > .color {
+    height: 25px;
+}
+
+.color {
+    border: thin solid grey;
+}

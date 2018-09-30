@@ -1,4 +1,6 @@
-import React, {createClass} from 'react';
+import React from 'react';
+import Star from './Star';
+import './StarRating.css'
 
 const StarRating = ({starsSelected=0, totalStars=5, onRate=f=>f}) =>
     <div className="star-rating">

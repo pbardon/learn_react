@@ -1,4 +1,5 @@
 import React from 'react';
+import Color from './Color';
 
 const ColorList = ({ colors=[], onRate=f=>f, onRemove=f=>f }) =>
     <div className="color-list">

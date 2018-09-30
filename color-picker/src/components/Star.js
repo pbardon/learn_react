@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Star.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import './Star.css'
 
 
 const Star = ({ selected=false, onClick=f=>f }) => 
