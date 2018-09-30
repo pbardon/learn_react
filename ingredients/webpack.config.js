@@ -8,10 +8,15 @@ module.exports = {
          rules: [
              {
                  test: /\.js$/,
-                 exclude: /(node_modules)/,
+                 exclude: /node_modules/,
                  loader: 'babel-loader',
                  query: {
-                     presets: ['env', 'stage-0', 'react']
+                     presets: [ 
+                        '@babel/preset-env',
+                        // '@babel/stage-0',
+                        '@babel/react'
+                        // '@babel/es2015'
+                    ]
                  }
              }
          ]
